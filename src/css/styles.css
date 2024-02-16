@@ -33,6 +33,7 @@ body {
     border-radius: 50%;
     height: 70px;
     width: 70px;
+    margin-bottom: 20px;
 }
 
 .location {
@@ -43,7 +44,7 @@ body {
 .social-medias {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 .social-medias li{
