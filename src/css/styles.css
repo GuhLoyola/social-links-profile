@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+.profile-info {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.profile-info h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.profile-info img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+.social-medias {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-medias li{
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: all ease-in-out;
+}
+
+.social-medias li:hover {
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: #000;
+}
+
+.author {
+    margin-top: 20px;
+}
+
+.author a {
+    color: #fff;
+    transition: all ease-in;
+}
+
+.author a:hover {
+    color: hsl(75, 94%, 57%);
+}
